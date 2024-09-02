@@ -1,5 +1,4 @@
 # topic
 
 ## Tutorial
-- [STM32CubeMX](./0.%20Tutorial/STM32CubeMX.md)
-- [STM32CubeIDE](./0.%20Tutorial/STM32CubeIDE.md)
+- [STM32Cube](./0.%20Tutorial/STM32Cube.md)

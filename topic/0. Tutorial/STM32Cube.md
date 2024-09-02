@@ -1,5 +1,5 @@
-# STM32CubeMX Tutorial
-IDE : `STM32CubeMX 1.8.6`
+# STM32Cube Tutorial
+IDE : `STM32CubeMX 1.8.6`, `STM32CubeIDE 1.16.0`
 
 STM32 마이크로컨트롤러와 마이크로프로세서를 위한 개발 도구
 
@@ -7,6 +7,8 @@ STM32 마이크로컨트롤러와 마이크로프로세서를 위한 개발 도�
 - [Board Selector](#board-selector)
 - [Example Selector](#example-selector)
 - [Cross Selector](#cross-selector)
+
+- [SELECTED](#selected)
 
 ## MCU/MPU Selector
 `MCU (Microcontroller Unit)와 MPU (Microprocessor Unit)를 선택할 때 사용`하는 도구
@@ -46,3 +48,9 @@ STM32CubeMX에서 제공하는 다양한 `코드 예제를 검색하고 선택`�
 `다양한 STM32 MCU/MPU 제품 간의 비교`를 돕는 도구
 여러 제품을 선택하여 그들의 기술적 사양, 성능, 기능 등을 비교할 수 있습니다. 이를 통해, 특정 프로젝트에 가장 적합한 MCU/MPU를 결정할 수 있음.
 ![Cross Selector](./images/Cross%20Selector.jpg)
+
+## Selected
+선택이 되면 프로젝트 설정을 할 수 있고, 이후 프로젝트가 시작된다.
+![Selected](./images/SELECTED.jpg)
+
+![PJT Created](./images/PJT%20Created.jpg)
