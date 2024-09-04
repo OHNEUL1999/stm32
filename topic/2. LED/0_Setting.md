@@ -1,6 +1,6 @@
-# 0 LED Setting
+# 0 Setting
 
-- [0 LED Setting](#0-led-setting)
+- [0 Setting](#0-setting)
   - [Driver](#driver)
     - [stm32c0xx\_nucleo.h](#stm32c0xx_nucleoh)
     - [stm32c0xx\_nucleo.c](#stm32c0xx_nucleoc)

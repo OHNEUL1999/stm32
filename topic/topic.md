@@ -8,4 +8,5 @@
 - [Data Sheet](./1.%20DataSheet/DataSheet.md)
 
 ## 2. LED
+- [0. Setting](./2.%20LED/0_Setting.md)
 - [1. Toggle](./2.%20LED/1_Toggle.md)
