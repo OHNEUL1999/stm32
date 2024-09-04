@@ -8,4 +8,4 @@
 
 ### [HAL](HAL.md)
 
-### [Timer](timer.md)
+### [Timer](time.md)
