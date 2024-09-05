@@ -1,6 +1,6 @@
-# time
+# timer vs delay
 
-- [time](#time)
+- [timer vs delay](#timer-vs-delay)
   - [delay()](#delay)
     - [delay()의 단점](#delay의-단점)
   - [timer](#timer)
