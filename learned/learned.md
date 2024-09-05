@@ -9,3 +9,4 @@
 ### [HAL](HAL.md)
 
 ### [Timer](time.md)
+### [Clock](clock.md)
