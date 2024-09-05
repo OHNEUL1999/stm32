@@ -1,6 +1,7 @@
 # 0 Setting
 
 - [0 Setting](#0-setting)
+  - [Board](#board)
   - [Driver](#driver)
     - [stm32c0xx\_nucleo.h](#stm32c0xx_nucleoh)
     - [stm32c0xx\_nucleo.c](#stm32c0xx_nucleoc)
@@ -10,6 +11,9 @@
       - [LED Initialization](#led-initialization)
       - [Turn On the LED](#turn-on-the-led)
       - [GPIO Initialization](#gpio-initialization)
+
+## Board
+![Board](./images/Board.png)
 
 ## Driver
 ### stm32c0xx_nucleo.h
