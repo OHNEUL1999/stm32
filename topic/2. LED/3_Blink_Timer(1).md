@@ -1,6 +1,7 @@
-# 3 Blink - Timer
+# 3 Blink - Timer(1)
+Code in Interrupt Handler
 
-- [3 Blink - Timer](#3-blink---timer)
+- [3 Blink - Timer(1)](#3-blink---timer1)
   - [Timer 선택 및 설정](#timer-선택-및-설정)
     - [Clock Configuration](#clock-configuration)
     - [Pinout \& Configuration](#pinout--configuration)

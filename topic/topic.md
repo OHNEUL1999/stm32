@@ -11,4 +11,5 @@
 - [0. Setting](./2.%20LED/0_Setting.md)
 - [1. Toggle](./2.%20LED/1_Toggle.md)
 - [2. Blink - Delay](./2.%20LED/2_Blink_Delay.md)
-- [3. Blink - Timer](./2.%20LED/3_Blink_Timer.md)
+- [3. Blink - Timer : Code in Interrupt Handler](./2.%20LED/3_Blink_Timer.md)
+- [4. Blink - Timer : Code in Main](./2.%20LED/4_Blink_Timer(2).md)
