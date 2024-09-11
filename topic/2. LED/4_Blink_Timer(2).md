@@ -1,5 +1,5 @@
 # 4 Blink - Timer(2)
-Code in Interrupt Handler or Main
+Code in Interrupt Handler
 
 timer setting이 1초로 되어있는 상태에서 toggle을 3초마다 하고싶다면.
 
