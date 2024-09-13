@@ -4,6 +4,7 @@
 ### [[c] extern]([c]extern.md)
 ### [[c++] name mangling]([c++]name_mangling.md)
 ### [Doxygen](Doxygen.md)
+### [Static Variable](StaticVariable.md)
 
 ### [BCU vs BIC](BCUvsBIC.md)
 ### [HAL](HAL.md)
