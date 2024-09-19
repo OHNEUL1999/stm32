@@ -14,3 +14,6 @@
 - [3. Blink - Timer : Code in Interrupt Handler](./2.%20LED/3_Blink_Timer.md)
 - [4. Blink - Timer : Code in Interrupt Handler 2](./2.%20LED/4_Blink_Timer(2).md)
 - [5. Blink switch by Button](./2.%20LED/5_Blink_Button.md)
+
+## 3. I2C
+- [0. saleae](./3.%20I2C/0_saleae_logic_analyzer.md)
