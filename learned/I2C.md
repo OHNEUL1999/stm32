@@ -8,7 +8,9 @@
     - [Sm : Standard-Mode](#sm--standard-mode)
     - [Fm : Fast-Mode](#fm--fast-mode)
     - [Fm+](#fm)
-  - [I2C Protocol](#i2c-protocol)
+    - [HSm : High-speed mode](#hsm--high-speed-mode)
+    - [UFm : Ultra Fast-mode](#ufm--ultra-fast-mode)
+  - [I2C Data Format](#i2c-data-format)
   - [Reference](#reference)
 
 ## I2C(Inter-Integrated Circuit)
@@ -29,15 +31,23 @@
 >H : Data Stable, L : Data Change
 
 ## I2C Modes
-I2C의 모드는 `비트 전송률`에 따라 세 가지로 나눌 수 있다.
+I2C의 모드는 `비트 전송률`에 따라 다섯 가지로 나눌 수 있다.
 ### Sm : Standard-Mode
 `최대 100kbit/s`의 비트 전송률
 ### Fm : Fast-Mode
 `최대 400kbit/s`의 비트 전송률
 ### Fm+
 `최대 1Mbit/s`의 비트 전송률
+### HSm : High-speed mode
+`최대 3.5Mbit/s`의 비트 전송률
+### UFm : Ultra Fast-mode
+`최대 5Mbit/s`의 비트 전송률
 
-## I2C Protocol
+## I2C Data Format
+![I2C Data Format](images/i2c%20data%20format.png)
+- 아래 표를 참고해 읽을 수 있다.
+- [`MSB`](MSBvsLSB.md#msb) First이다.
+
 | Acronyms | Mean                              | SDA   | SCL       | Feature                                       |
 | -------- | --------------------------------- | ----- | --------- | --------------------------------------------- |
 | `S`      | Start Bit / Condition             | H → L | H         | 데이터 전송 시작                              |
@@ -50,6 +60,7 @@ I2C의 모드는 `비트 전송률`에 따라 세 가지로 나눌 수 있다.
 
 - `Slave Address`: 슬레이브 장치의 고유 주소.<br>
   ![Slave Address](images/slave_address.png)
+  - Address는 기본 7bit이지만, Device에 따라 10bit로도 할 수 있다.
 
 - `Data Byte`: 전송되는 실제 데이터. 보통 8비트. (주소일 경우 7Bit 주소, 1Bit R/W\)
 
@@ -64,8 +75,7 @@ I2C의 모드는 `비트 전송률`에 따라 세 가지로 나눌 수 있다.
   ***[Clock Stretching during hub suspend]***
 
 ---
-| ![I2C Data](images/I2C_Data.png) | - `MSB (Most Significant Bit)` : 데이터 형의 최 상위 비트 <br> **`(signed에서는 부호!)`** <br> - `LSB (Least Significant Bit)` : 데이터 형의 최하위 비트 <br> >`MSB`부터 수신하는지, `LSB`부터 수신하는지 유의해서 프로그래밍하기! |
-|------------------------|-------------------------------------------------------------------------------------------------------------------|
+
 
 ## Reference
 - [STM32 - Getting started with I2C](https://wiki.st.com/stm32mcu/wiki/Getting_started_with_I2C#)
