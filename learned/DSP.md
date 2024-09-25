@@ -18,7 +18,7 @@
 
 ## DSP 특징
 
-1. [SIMD](SIMD.md)
+1. [SIMD](MultiProcessor.md#simd--single-instruction-multiple-data)
 
     동시에 다수의 데이터를 `병렬 처리`함으로써 고속 연산을 가능하게 함.
 

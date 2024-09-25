@@ -20,7 +20,7 @@
 - [HAL](HAL.md)
 - [NVIC](NVIC.md)
 - [DSP](DSP.md)
-- [SIMD](SIMD.md)
+- [Multi Processor](MultiProcessor.md)
 
 ## 시간 관리
 ### 타이머 및 클럭
