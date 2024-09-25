@@ -1,14 +1,12 @@
 # DMA
 
 - [DMA](#dma)
-  - [Definition](#definition)
+  - [DMA : Direct Memory Access](#dma--direct-memory-access)
   - [GPDMA : General Purpose DMA](#gpdma--general-purpose-dma)
   - [LPDMA : Low Power DMA](#lpdma--low-power-dma)
   - [Reference](#reference)
 
-## Definition
-
-`Direct Memory Access`
+## DMA : Direct Memory Access
 
 CPU 간섭 없이 데이터 전송을 가능하게 하는 기능
 
