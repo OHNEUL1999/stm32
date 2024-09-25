@@ -63,7 +63,7 @@ SDA, SCL의 채널을 설정하였다.
 ### NVIC Setting
 ![NVIC Setting](./images/I2C_NVIC_Settings.PNG)
 
-DMA Setting을 하면 사진과 같이 채널이 NVIC에 생성된다.
+DMA Setting을 하면 사진과 같이 채널이 [NVIC](/stm32/learned/NVIC.md)에 생성된다.
 
 체크 박스(interrupt enabled)를 활성화하면 인터럽트를 사용하겠다는 뜻이다.
 
@@ -167,7 +167,7 @@ DMA Setting을 하면 사진과 같이 채널이 NVIC에 생성된다.
 
 - `HAL_MspInit(void)`
   - `전역 MSP(메인 시스템 초기화) 함수`로 시스템 구성 및 필요한 클럭을 활성화함.
-  - 여기에서는 `SYSCFG`, `PWR 클럭`을 활성화함.
+  - 여기에서는 `SYSCFG`, `PWR(Power Control) 클럭`을 활성화함.
   <details>
     <summary>HAL_MspInit(void)</summary>
 
