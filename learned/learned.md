@@ -6,8 +6,8 @@
 
 ### C 언어 관련
 - [[c] extern]([c]extern.md)
-- [Static Variable](StaticVariable.md)
 - [[c++] name mangling]([c++]name_mangling.md)
+- [Static Variable](StaticVariable.md)
 
 ### 문서화 도구
 - [Doxygen](Doxygen.md)
@@ -15,18 +15,19 @@
 ## 하드웨어 및 보드
 ### 기본 개념
 - [BCU vs BIC](BCUvsBIC.md)
-- [DMA](DMA.md)
 - [CMSIS](cmsis.md)
-- [HAL](HAL.md)
-- [NVIC](NVIC.md)
+- [DMA](DMA.md)
 - [DSP](DSP.md)
+- [HAL](HAL.md)
 - [Multi Processor](MultiProcessor.md)
+- [NVIC](NVIC.md)
+- [Oscillator](Oscillator.md)
 
 ## 시간 관리
 ### 타이머 및 클럭
-- [Timer vs Delay](timer%20vs%20delay.md)
 - [Clock](clock.md)
 - [timer](timer.md)
+- [Timer vs Delay](timer%20vs%20delay.md)
 
 ## 통신
 ### 프로토콜
