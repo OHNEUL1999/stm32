@@ -23,6 +23,7 @@
 - [Multi Processor](MultiProcessor.md)
 - [NVIC](NVIC.md)
 - [Oscillator](Oscillator.md)
+- [Shield vs Module](ShieldvsModule.md)
 
 ## 시간 관리
 ### 타이머 및 클럭
