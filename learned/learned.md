@@ -19,6 +19,7 @@
 - [DMA](DMA.md)
 - [DSP](DSP.md)
 - [HAL](HAL.md)
+- [Interrupt](interrupt.md)
 - [Multi Processor](MultiProcessor.md)
 - [NVIC](NVIC.md)
 - [Oscillator](Oscillator.md)
@@ -32,3 +33,4 @@
 ## 통신
 ### 프로토콜
 - [I2C](I2C.md)
+- [Polling](polling.md)
